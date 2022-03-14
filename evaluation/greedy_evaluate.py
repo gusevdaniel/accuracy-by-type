@@ -167,7 +167,7 @@ def greedy_alignment(embed1, embed2, top_k, nums_threads=multiprocessing.cpu_cou
 
 if __name__ == '__main__':
     ref_file = '..\\data\\ref_pairs' # pairs id from ent_links
-    results_folder = 'C:\\my-data\\output\\multike\\20210809104150\\'  # MultiKE results #Word2Vec EN-RU
+    results_folder = 'C:\\my-data\\output\\results\\MultiKE\\EN_RU_15K_V1\\631\\20210809104150\\'  # MultiKE results #Word2Vec EN-RU
 
     ent_embeds = np.load(results_folder + "ent_embeds.npy")
     ref_ent1, ref_ent2 = read_references(ref_file)
